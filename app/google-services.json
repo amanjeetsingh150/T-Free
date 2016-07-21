@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "859862748367",
+    "firebase_url": "https://t-free.firebaseio.com",
+    "project_id": "t-free",
+    "storage_bucket": "t-free.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859862748367:android:b41f2a9f6aa31119",
+        "android_client_info": {
+          "package_name": "com.developers.t_free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859862748367-s0qejs3livoi2nc852thecinjc84d5f3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developers.t_free",
+            "certificate_hash": "F9FEBFEFDE15383B79633730CEF170A8B311F6A4"
+          }
+        },
+        {
+          "client_id": "859862748367-hc8ul1doqh9hmflbpoq9lic9ns22j3kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWETEtSD0_7n4iU6h8EMIk60JbF4kUlJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859862748367-hc8ul1doqh9hmflbpoq9lic9ns22j3kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

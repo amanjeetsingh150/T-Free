@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developers.t_free.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:text="Name: "
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="Address: " />
+
+    <TextView
+        android:id="@+id/mobile_number"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="Contact: " />
+
+    <TextView
+        android:id="@+id/rfid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_below="@id/mobile_number"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="RFID: " />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rfid">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:text="New Text"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/address"
+        android:layout_toRightOf="@+id/name"
+        android:layout_toEndOf="@+id/name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:text="New Text"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/address"
+        android:layout_toEndOf="@+id/address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/address"
+        android:layout_toRightOf="@+id/mobile_number"
+        android:layout_toEndOf="@+id/mobile_number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:id="@+id/textView8"
+        android:layout_above="@+id/activity_main_swipe_refresh_layout"
+        android:layout_toRightOf="@+id/rfid"
+        android:layout_toEndOf="@+id/rfid" />
+</RelativeLayout>
